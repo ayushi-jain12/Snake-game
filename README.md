@@ -5,7 +5,7 @@ The player’s objective in the game is to achieve maximum points as possible by
 
 **This code uses pygame library**
 
-## **INSTALLATION OF PYGAME**
+## **Installation of pygame library**
 
 Download the Python 3 installer package from the official website and install it, if not installed previously.
 
@@ -13,3 +13,10 @@ Run the following in the terminal to install the Pygame library
 ```
 pip install pygame
 ```
+## How to run
+
+Download the source code and run as any other python(.py) file.
+
+## Screenshots
+
+![pygame](pygame.jpg)
