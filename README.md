@@ -3,7 +3,7 @@ A snake game is a maze-style arcade game. The four direction buttons in the Snak
 The player’s objective in the game is to achieve maximum points as possible by collecting food or fruits.When the snake slams into a wall or slams into itself, the player loses.
 
 
-This code uses pygame library
+**This code uses pygame library**
 
 ## **INSTALLATION OF PYGAME**
 
