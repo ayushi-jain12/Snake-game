@@ -21,3 +21,6 @@ Download the source code and run as any other python(.py) file.
 
 ![snake game code](/Users/ayushi/snakegame/game_code.jpg)
 ![snake game screen](/Users/ayushi/snakegame/game_screen.jpg)
+
+## Pre-requisites
+   Python and pygame
