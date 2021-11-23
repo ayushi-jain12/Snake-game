@@ -19,4 +19,4 @@ Download the source code and run as any other python(.py) file.
 
 ## Screenshots
 
-![pygame](pygame.jpg)
+![snake game code](/Users/ayushi/snakegame/game_code.jpg)
