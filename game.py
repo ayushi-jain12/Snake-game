@@ -1,11 +1,12 @@
 #Snake game using pygame
 
+#importing required libraries
 import pygame
 import sys
 import time 
 import random
 
-#checking for errors
+#checking for errors during initialisation
 errors=pygame.init()
 if errors[1]>0:
     print(f'{errors[1]} errors while initialising, Exiting game..')
@@ -38,8 +39,7 @@ yellow=pygame.Color(255,255,0)
 cyan=pygame.Color(0,255,255)
 
 
-#variables
-
+#required variables
 score=0
 snake_pos=[50,50]
 body=[[50,50],[40,50],[30,50]]
@@ -49,7 +49,7 @@ direction='RIGHT'
 change_dir=direction
 
 
-#Game over
+#function to display game over and score
 def game_over():
     my_font=pygame.font.SysFont('luximono',90)
     game_over_surface = my_font.render('GAME OVER!!', True,red)
@@ -63,6 +63,7 @@ def game_over():
     pygame.quit()
     sys.exit()
 
+#function to show score when the game is over
 def show_score(when):
     if when==0:
         score_font =pygame.font.SysFont('luximono',60)
@@ -76,10 +77,6 @@ def show_score(when):
         score_rect.midtop = (fx/10, 15)
 
     window.blit(score_surface, score_rect)
-
-
-
-
 
 #main game logic
 while True:
@@ -146,6 +143,7 @@ while True:
         game_over()
     if snake_pos[1] < 0 or snake_pos[1] > fy-10:
         game_over()
+        
     # Touching the snake body
     for block in body[1:]:
         if snake_pos[0] == block[0] and snake_pos[1] == block[1]:
