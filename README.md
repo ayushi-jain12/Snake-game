@@ -23,7 +23,7 @@ Download the source code and run as any other python(.py) file.
 ![snake game screen](/Users/ayushi/snakegame/game_screen.jpg)
 
 ## Pre-requisites
-   \list
-    \item Python
-    \item Pygame
-   \!list
+<ol>
+  <li>Python</li>
+  <li>Pygame</li>
+</ol>
