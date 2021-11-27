@@ -15,9 +15,10 @@ pip install pygame
 ```
 ## Algorithm
 <ol>
-  <li><\li>
-<\ol>
-## How to run
+  <li></li>
+</ol>
+  
+## **How to run**
 
 Download the source code and run as any other python(.py) file.
 
