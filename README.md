@@ -13,10 +13,7 @@ Run the following in the terminal to install the Pygame library
 ```
 pip install pygame
 ```
-## Algorithm
-<ol>
-  <li></li>
-</ol>
+
   
 ## **How to run**
 
